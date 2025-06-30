@@ -28,8 +28,8 @@ public class BurgerParametrizedTest {
     @InjectMocks
     private Burger burger;
 
-    private float expectedTotalPrice;
-    private int numberOfIngredients;
+    private final float expectedTotalPrice;
+    private final int numberOfIngredients;
 
     @Rule
     public MockitoRule rule = MockitoJUnit.rule();
